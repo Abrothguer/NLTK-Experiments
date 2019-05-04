@@ -10,13 +10,13 @@ from nltk.tokenize import word_tokenize
 from nltk.chunk import RegexpParser, ChunkParserI
 from nltk.chunk.util import conlltags2tree, tree2conlltags
 from nltk.tag import BigramTagger, UnigramTagger, ClassifierBasedTagger
+from samples import quote_1
 
 # Samples and loadings
 
 with open("pickles/pos-taggers/brill_tagger.pickle", "rb") as file:
     pos_tagger = pickle.load(file)
 
-quote_1 = "The cake is a lie, but the cherry is not"
 tagged_1 = pos_tagger.tag(word_tokenize(quote_1))
 
 # Starts with a determiner, followed by any nouns, followed by an arbritary number of any words

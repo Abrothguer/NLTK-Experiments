@@ -32,6 +32,7 @@ sample_ct = " ".join(sample_ct.replace('\n', '').split())
 
 # Sample quotes
 
+quote_1 = "The cake is a lie, but the cherry is not"
 quote_2 = "A wizard is never late"
 quote_3 = "The meeting was boring"
 quote_4 = "Most of the Top 10 companies in the world are in the tech business"
