@@ -29,3 +29,16 @@ sample_ct = """ Money, get back.
                 I'm in the high-fidelity first class traveling set.
                 And I think I need a Lear jet."""
 sample_ct = " ".join(sample_ct.replace('\n', '').split())
+
+# Sample quotes
+
+quote_2 = "A wizard is never late"
+quote_3 = "The meeting was boring"
+quote_4 = "Most of the Top 10 companies in the world are in the tech business"
+quote_5 = "The sentence of death"
+quote_6 = "The shores picture"
+quote_7 = "The picture of costlines is beautiful"
+
+# Wrong sentences
+wrong_1 = "Is the children singing"
+wrong_2 = "The doctor were right"
