@@ -39,6 +39,7 @@ quote_4 = "Most of the Top 10 companies in the world are in the tech business"
 quote_5 = "The sentence of death"
 quote_6 = "The shores picture"
 quote_7 = "The picture of costlines is beautiful"
+quote_8 = "Fear is the mind killer"
 
 # Wrong sentences
 wrong_1 = "Is the children singing"
